@@ -1,0 +1,8 @@
+﻿  main.cpp
+d:\visual studio projects\дз\4.      findplusminmax\findplusminmax\main.cpp(13): warning C4101: min: неиспользованная локальная переменная
+d:\visual studio projects\дз\4.      findplusminmax\findplusminmax\main.cpp(13): warning C4101: min_i: неиспользованная локальная переменная
+d:\visual studio projects\дз\4.      findplusminmax\findplusminmax\main.cpp(13): warning C4101: max_i: неиспользованная локальная переменная
+d:\visual studio projects\дз\4.      findplusminmax\findplusminmax\main.cpp(13): warning C4101: max: неиспользованная локальная переменная
+  functions.cpp
+  Создание кода...
+  FindPlusMinMax.vcxproj -> D:\Visual Studio Projects\ДЗ\4.      FindPlusMinMax\Debug\FindPlusMinMax.exe

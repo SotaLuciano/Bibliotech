@@ -1,0 +1,1 @@
+void binarysist(int Number,int System); 

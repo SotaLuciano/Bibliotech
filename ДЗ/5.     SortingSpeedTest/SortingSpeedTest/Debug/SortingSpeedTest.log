@@ -1,0 +1,3 @@
+﻿  main.cpp
+d:\visual studio projects\дз\5.     sortingspeedtest\sortingspeedtest\main.cpp(23): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  SortingSpeedTest.vcxproj -> D:\Visual Studio Projects\ДЗ\5.     SortingSpeedTest\Debug\SortingSpeedTest.exe

@@ -1,0 +1,14 @@
+﻿Сборка начата 22.11.2015 19:07:48.
+     1>Проект "D:\Проекты С++\Pointers in massive\Pointers in massive\Pointers in massive.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Pointers in massive.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "Pointers in massive.cpp"
+         Pointers in massive.cpp
+     1>d:\проекты с++\pointers in massive\pointers in massive\pointers in massive.cpp(2): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+     1>d:\проекты с++\pointers in massive\pointers in massive\pointers in massive.cpp(3): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+     1>d:\проекты с++\pointers in massive\pointers in massive\pointers in massive.cpp(64): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+     1>Сборка проекта "D:\Проекты С++\Pointers in massive\Pointers in massive\Pointers in massive.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.42

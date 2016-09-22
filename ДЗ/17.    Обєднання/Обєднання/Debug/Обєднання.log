@@ -1,0 +1,7 @@
+﻿  main.cpp
+d:\visual studio projects\дз\17.    обєднання\обєднання\functions.h(28): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+d:\visual studio projects\дз\17.    обєднання\обєднання\functions.h(60): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+d:\visual studio projects\дз\17.    обєднання\обєднання\functions.h(63): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  functions.cpp
+  Создание кода...
+  Обєднання.vcxproj -> D:\Visual Studio Projects\ДЗ\17.    Обєднання\Debug\Обєднання.exe

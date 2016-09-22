@@ -1,0 +1,3 @@
+﻿  main.cpp
+d:\visual studio projects\laba5_tkachiv\laba5_tkachiv\main.cpp(18): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  Laba5_Tkachiv.vcxproj -> D:\Visual Studio Projects\Laba5_Tkachiv\Debug\Laba5_Tkachiv.exe

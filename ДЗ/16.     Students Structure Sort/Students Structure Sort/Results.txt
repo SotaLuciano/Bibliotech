@@ -1,0 +1,7 @@
+ 
+ Stud name:A 
+ Average Ball:4.33333 
+ Stud name:B 
+ Average Ball:3.75 
+ Stud name:C 
+ Average Ball:2.91667

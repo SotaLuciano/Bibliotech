@@ -1,0 +1,7 @@
+﻿  main.cpp
+d:\visual studio projects\дз\14.     віженер\віженер\main.cpp(9): warning C4101: i: неиспользованная локальная переменная
+  functions.cpp
+d:\visual studio projects\дз\14.     віженер\віженер\functions.cpp(9): warning C4018: <: несоответствие типов со знаком и без знака
+d:\visual studio projects\дз\14.     віженер\віженер\functions.cpp(23): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Віженер.vcxproj -> D:\Visual Studio Projects\ДЗ\14.     Віженер\Debug\Віженер.exe

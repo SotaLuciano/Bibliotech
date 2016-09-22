@@ -1,0 +1,28 @@
+void main()
+{
+	
+	double a, b, h;
+	a = 1;
+	b = 3;
+	h = (b - a) / n;
+	double x[n];
+	double y = 0;
+	for (int i = 0; i < n; ++i)
+	{
+		y = a + (i*h);
+		double function = f(y);
+		x[i] = function;
+		cout << fixed << setprecision(3) << "X = " << y << " F(x) = " << x[i] << endl;
+	}
+
+	double min = x[0], max = x[0];
+	for (int i = 0; i < n; ++i)
+	{
+		if (min > x[i])
+			min = x[i];
+		else if (max < x[i])
+			max = x[i];
+	}
+	cout << "MIN = " << min << "\nMAX =" << max << endl;
+	_getch();
+}

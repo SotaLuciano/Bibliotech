@@ -1,0 +1,8 @@
+﻿  functions.cpp
+d:\visual studio projects\дз\15.     сортуванняслів\сортуванняслів\functions.cpp(11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+d:\visual studio projects\дз\15.     сортуванняслів\сортуванняслів\functions.cpp(12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+d:\visual studio projects\дз\15.     сортуванняслів\сортуванняслів\functions.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+  СортуванняСлів.vcxproj -> D:\Visual Studio Projects\ДЗ\15.     СортуванняСлів\Debug\СортуванняСлів.exe

@@ -1,0 +1,12 @@
+﻿Build started 04.03.2016 9:34:54.
+     1>Project "P:\ПМ-11\Гайзер Назар\VISUALSTUDIOLABS\LAB3\LAB3\LAB3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>p:\пм-11\гайзер назар\visualstudiolabs\lab3\lab3\source.cpp(11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>Done Building Project "P:\ПМ-11\Гайзер Назар\VISUALSTUDIOLABS\LAB3\LAB3\LAB3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.85

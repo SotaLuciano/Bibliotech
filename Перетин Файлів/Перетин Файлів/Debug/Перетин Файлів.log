@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\visual studio projects\перетин файлів\перетин файлів\main.cpp(27): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+d:\visual studio projects\перетин файлів\перетин файлів\main.cpp(28): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  Перетин Файлів.vcxproj -> D:\Visual Studio Projects\Перетин Файлів\Debug\Перетин Файлів.exe

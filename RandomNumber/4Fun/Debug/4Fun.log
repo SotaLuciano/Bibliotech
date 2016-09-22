@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\visual studio projects\4fun\4fun\main.cpp(10): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\visual studio projects\4fun\4fun\main.cpp(22): warning C4789: буфер "diff_t" размером 24 байт будет переполнен; 8 будет записано начиная с позиции 24
+  4Fun.vcxproj -> D:\Visual Studio Projects\4Fun\Debug\4Fun.exe

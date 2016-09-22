@@ -1,0 +1,3 @@
+﻿  main.cpp
+f:\laba_5\laba_5\main.cpp(27): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  Laba_5.vcxproj -> F:\Laba_5\Debug\Laba_5.exe
