@@ -59,16 +59,42 @@ void main()
 }
 */
 #include <iostream>
+#include <fstream>
 using namespace std;
 void main()
 {
-int i = 0;
-float n;
-cout << "\n Poslid Drob: ";
-while(i++ < 30)
-{
-n= 1/i;
-cout << n << "\n";
-}
+	ifstream file;
 
+	file.open("Text.txt");
+
+	int i = 0;
+	char c;
+	while (!file.eof())
+	{
+		if (!file.eof())
+		{
+			c = file.get();
+
+			++i;
+		}
+		else	
+			if (c == '\n' || file.eof())
+			{
+				cout << i - 1 << endl;
+
+				file.seekg(-i - 1, ios::cur);
+
+				char *arr = new char[i];
+
+				file.getline(arr, i);
+
+				cout << arr << endl;
+
+				i = 0;
+			}
+	}
+
+	file.close();
+
+	system("pause");
 }

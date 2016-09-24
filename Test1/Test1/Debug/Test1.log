@@ -1,3 +1,2 @@
 ﻿  Code.cpp
-d:\visual studio projects\test1\test1\code.cpp(70): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-  Test1.vcxproj -> D:\Visual Studio Projects\Test1\Debug\Test1.exe
+LINK : fatal error LNK1168: cannot open D:\Visual Studio C++ Projects\Visual Studio Projects\Test1\Debug\Test1.exe for writing
