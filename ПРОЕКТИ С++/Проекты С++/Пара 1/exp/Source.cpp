@@ -2,30 +2,39 @@
 #include<iostream>
 #include<math.h>
 
+template <typename T>
+void BSort2(T array[], long size)
+{
+	long i, rezerv;
+	T temp;
+	i = 0;
 
-using namespace std;
- int main() 
- {
-	double a, b, h, ma,mi,x ; // double a=-3.0, b=4.25, h=0.1; (альтернативний вар≥ант)
+	while (i < size - 1)
+	{
+		if (array[i] > array[i + 1])
+		{
+			rezerv = i + 1;
+			while ((i >= 0) && (array[i] > array[i + 1]))
+			{
+				temp = array[i];
+				array[i] = array[i + 1];
+				array[i + 1] = temp;
 
-	cout << "\n input a=";cin >> a;
-	cout << "\n input b="; cin >> b;
-	cout << "\n input h=";cin >> h;// ¬в≥д данних
-
-	ma = mi = a*sin(a)*exp(-a*a);
-	if ((b - a)*h > 0)
-		while ((b - a)*h >= 0)  {
-			x= a*sin(a)*exp(-a*a);
-			if (x > ma) ma = x;
-			else if (x < mi) mi = x;
-
-			cout << "\n" << a << "\t" << x;
-			a += h;
+				i--;
+			}
+			i = rezerv;
+		}
+		else
+			i++;
+	}
 }
-	else cout << "\n Uncorect";
-
-	cout << "\n max=" << ma << "\n min=" << mi;
-
-	system("pause");
- 
+using namespace std;
+ void main() 
+ {
+	 int arr[5] = { 2,5,1,-3,0 };
+	 long size = 5;
+	 BSort2(arr, size);
+	 system("pause");
+	 for (int i(0); i < 5; ++i)
+		 cout << arr[i];
  }
